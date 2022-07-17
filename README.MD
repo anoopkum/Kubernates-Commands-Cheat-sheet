@@ -31,7 +31,7 @@ List services:
 $ kubectl get services
 
 Expose PODs as services (creates endpoints)
-$ kubectl expose deployment/monkey — port=2001 — type=NodePort
+$ kubectl expose deployment/monkey — port=2001 — type=NodePort 
 
 6. Volumes
 
