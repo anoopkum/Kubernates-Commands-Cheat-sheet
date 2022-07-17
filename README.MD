@@ -68,7 +68,7 @@ List DNS-PODs:
 $ kubectl get ingress
 $ kubectl expose deployment ghost — port=2368
 
-11. Horizontal Pod Autoscaler
+11. Horizontal Pod Autoscaler 
 
 When heapster runs:
 $ kubectl get hpa
