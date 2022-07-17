@@ -28,7 +28,7 @@ $ kubectl rollout undo deployment/DEPLOYMENT_NAME — to-revision=N
 5. Services
 
 List services:
-$ kubectl get services
+$ kubectl get services 
 
 Expose PODs as services (creates endpoints)
 $ kubectl expose deployment/monkey — port=2001 — type=NodePort 
